@@ -1,0 +1,34 @@
+body {
+	font-family: "Roboto-Condensed", sans-serif;
+	color: rgba(51,55,69);
+	background-color: rgb(255, 242, 226);
+}
+
+.banner {
+	text-align: center;
+	padding-bottom: 20 px;
+	padding-top: 50 px;
+	font-weight:  bold;
+	background-color: rgba(51,55,69);
+	color: rgb(255, 242, 226);
+}
+
+a  {
+text-decoration:  none;
+font-weight:  bolder;
+opacity: 0.6;
+color: black;
+}
+
+a:hover{
+	opacity: 1;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h2 {
+	font-size: 20px;
+}
