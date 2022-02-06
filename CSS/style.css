@@ -32,3 +32,51 @@ ul {
 h2 {
 	font-size: 20px;
 }
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 30px rgba(0 0 0 O.4);
+  padding: 10px;
+
+}
+
+.cards {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 20px
+}
+
+.container {
+  margin: 0 auto
+}
+
+.footer {
+  background-color: rgba(51,55,69);
+  color: rgb(255, 242, 226);
+  text-align: center;
+  padding-bottom: 50 px;
+	padding-top: 20 px;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 10vh;
+}
+
+@media(max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    position: sticky;
+    height: 5vh;
+    bottom:0px;
+  }
+}
